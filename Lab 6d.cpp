@@ -4,7 +4,6 @@
 using namespace std;
 
 double calculateCircumference(double diameter) {
-    const double pi = 3.14159;
     return pi * diameter;
 }
 
@@ -49,7 +48,7 @@ int main() {
     double earthCopies = earthSurfaceArea / pakistanSurfaceArea;
     cout << "Number of Pakistan copies to cover Earth: " << earthCopies << endl;
 
-    // Part 2: 
+    // Part 2:  
     double x1 = 1.0;
     double x2 = 2.0;
     double x3 = 3.0;
